@@ -1,5 +1,5 @@
 <base>
-[esc]>[esc][t&h150][lctr]
+[esc]>[esc][t&h100][lctr]
 [lctr]>[lwin]
 [q]>[apos]
 [w]>[comm]
@@ -37,12 +37,21 @@
 {hk4}>{x1}{vol-}
 <keypad>
 <function1>
-[esc]>[esc][t&h150][lctr]
+[esc]>[esc][t&h100][lctr]
 [lctr]>[lwin]
 [hk1]>[deft]
 <function2>
-[esc]>[esc][t&h150][lctr]
+[esc]>[esc][t&h100][lctr]
 [lctr]>[lwin]
 [hk1]>[deft]
+* open devtools
+{t}>{-xawx}{i}{+xawx}
+* maximize window
+{y}>{-caxx}{ent}{+caxx}
+* center window
+{u}>{-caxx}{c}{+caxx}
+* move to next monitor
+{h}>{-cawx}{rght}{+cawx}
+* move to previous monitor
+{j}>{-cawx}{left}{+cawx}
 <function3>
-
